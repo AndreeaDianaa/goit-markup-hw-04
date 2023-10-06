@@ -328,7 +328,7 @@ body {
 }
 
 .svg-customers {
-    flex-basis: calc((100%-110px)/6);
+    flex-basis: calc((100% - 180px)/6);
     box-sizing: border-box;
     padding: 16px 32px 16px 32px;
     margin-bottom: 50px;
