@@ -329,7 +329,7 @@ body {
 
 .icons-customers ul {
     display: flex;
-    margin: 40px;
+    margin-left: 40px;
     list-style: none;
     gap: 30px;
     max-width: 70vw;
