@@ -281,9 +281,10 @@ body {
 /*Services*/
 .services ul {
     display: flex;
+    justify-content: center;
     list-style: none;
     gap: 30px;
-    max-width: 90vw;
+    max-width: 70%;
     margin: 0 auto;
 }
 
@@ -326,45 +327,47 @@ body {
     padding-top: 94px;
 }
 
+.icons-customers {
+    display: flex;
+    justify-content: center;
+}
+
 
 .icons-customers ul {
     display: flex;
-    margin-left: 40px;
     list-style: none;
     gap: 30px;
-    max-width: 70vw;
+    margin-bottom: 50px;
+    max-width: 80vw;
 }
 
-.svg-customers {
-    padding: 16px 32px;
+.customer-logo {
     flex-basis: calc((100% - 180px)/6);
-    box-sizing: border-box;
-    margin-bottom: 50px;
-    flex-shrink: 0;
+}
+
+.customers-logo svg {
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 16px;
+    padding-bottom: 16px;
     background-color: #F5F4FA;
     border-radius: 4px;
     border: 1px solid #AFB1B8;
     flex-shrink: 0;
-    width: 170px;
-    height: 92px;
-}
-
-.svg-customers svg {
-    max-width: max-content;
-    max-height: 100%;
-    flex-shrink: 0;
+    max-width: 100%;
 }
 
 .icon {
     fill: #AFB1B8;
 }
 
-.svg-customers:hover .icon,
-.svg-customers:focus .icon {
+.customers-logo:hover .icon,
+.customers-logo:focus .icon {
     fill: var(--link-hover-color);
+    background-color: var(--white-background);
 }
 
-.svg-customers:hover {
+.customers-logo:hover {
     background-color: var(--white-background);
 }
 
@@ -463,6 +466,9 @@ body {
 
 
 .regular-customers {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     background-color: var(--white-background);
 }
 
